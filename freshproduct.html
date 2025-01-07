@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medicine - Crest Med</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <h1>Crest Med</h1>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./aboutuspage (1).html">About Us</a></li>
+        <li><a href="./freshproduct.html">Products</a></li>
+        <li><a href="./loyalty.html">Loyalty</a></li>
+        <li><a href="./order.html">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="products">
+    <h2><center>Analgesics</center></h2>
+    <div class="product-container">
+      <div class="product">
+        <img src="./Pics/paracetamol.jpg" alt="Analgesics">
+        <h3>Paracetamol</h3>
+        <p>Panadol Advanced Paracetamol 500mg </p>
+        <p>LKR.1500 Per Box</p>
+        <label for="quantity-Paracetamol">Quantity (Box):</label>
+        <input type="number" id="quantity-Paracetamol" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Paracetamol" data-price="1500">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/asprin.jpg" alt="Asprin">
+        <h3>Asprin</h3>
+        <p>NobleAid Asprin 300 tablets</p>
+        <p>LKR.820 Per bottle</p>
+        <label for="quantity-Asprin">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Asprin" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Asprin" data-price="820">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/morphine.jpg" alt="Morphine">
+        <h3>Morphine</h3>
+        <p> Morphine Sulphate 50ML </p>
+        <p>LKR.8000 Per Bottle</p>
+        <label for="quantity-Morphine">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Morphine" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Morphine" data-price="8000">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/codeine.jpg" alt="Codeine">
+        <h3>Codeine</h3>
+        <p>Codeines Linctus Care+ </p>
+        <p>LKR.3400 Per Bottle</p>
+        <label for="quantity-Codeine">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Codeine" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Codeine" data-price="3400">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/amitrip.jpg" alt="Amitriptyline">
+        <h3>Amitriptyline</h3>
+        <p>Accord Amitriptyline Tablets 10mg </p>
+        <p>LKR.790 Per Bottle</p>
+        <label for="quantity-Amitriptyline">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Amitriptyline" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Amitriptyline" data-price="790">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/gabapentin.jpg" alt="Gabapentin">
+        <h3>Gabapentin</h3>
+        <p>Freshly Picked Long Green Gabapentin</p>
+        <p>LKR.800 Per Bottle</p>
+        <label for="quantity-Gabapentin">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Gabapentin" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Gabapentin" data-price="800">Add to Cart</button>
+      </div>
+
+    <h2><center>Antibiotics</center></h2>
+
+    <div class="product-container">
+      <div class="product">
+        <img src="./Pics/penicillin-g.jpg" alt="Penicillin">
+        <h3>Penicillin</h3>
+        <p>RPI Penicillin G 25g</p>
+        <p>LKR.650 Per Bottle</p>
+        <label for="quantity-Penicillin">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Penicillin" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Penicillin" data-price="650">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/tetracy.jpg" alt="Tetracyline">
+        <h3>Tetracyline</h3>
+        <p>RPI Tetracyline HCL 25g</p>
+        <p>LKR.1800 Per Bottle</p>
+        <label for="quantity-Tetracyline">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Tetracyline" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Tetracyline" data-price="1800">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/amoxicillin.jpg" alt="Amoxicillin">
+        <h3>Amoxicillin</h3>
+        <p>Medreich Amoxicillin 21 Capsules 250mg</p>
+        <p>LKR.500 Per Box</p>
+        <label for="quantity-Amoxicillin">Quantity (Box):</label>
+        <input type="number" id="quantity-Amoxicillin" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Amoxicillin" data-price="500">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/Vancomycin_1p25g.jpg" alt="Vancomycin">
+        <h3>Vancomycin</h3>
+        <p>Eugia Vancomycin HCL</p>
+        <p>LKR.1100 Per Bottle</p>
+        <label for="quantity-Vancomycin">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Vancomycin" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Vancomycin" data-price="1100">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/CIPROFLOXACIN.png" alt="Ciproflaxacin">
+        <h3>Ciproflaxacin</h3>
+        <p>Ciproflaxacin Lactate 200mg</p>
+        <p>LKR.2200 Per Bottle</p>
+        <label for="quantity-Ciproflaxacin">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Ciproflaxacin" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Melons" data-price="2200">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/Gentamicin.jpg" alt="Gentamicin">
+        <h3>Gentamicin</h3>
+        <p>Gentamicine Pediatric 20mg</p>
+        <p>LKR.1450 Per Bottle</p>
+        <label for="quantity-Gentamicin">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Gentamicin" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Gentamicin" data-price="1450">Add to Cart</button>
+      </div>
+
+    <h2><center>Antidepressants</center></h2>
+
+    <div class="product-container">
+      <div class="product">
+        <img src="./Pics/fluoxetine.jpg" alt="Fluxetine">
+        <h3>Fluxetine</h3>
+        <p>Fluxetine capsules 10mg 100 capsules</p>
+        <p>LKR.2000 Per Bottle</p>
+        <label for="quantity-Fluxetine">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Fluxetine" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Fluxetine" data-price="2000">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/sertraline.jpg" alt="Sertraline">
+        <h3>Sertraline</h3>
+        <p>Sertraline HCL 30 tablets</p>
+        <p>LKR.2700 Per Bottle</p>
+        <label for="quantity-Sertraline">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Sertraline" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Sertraline" data-price="2700">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/bupropion.jpg" alt="Bupropion">
+        <h3>Bupropion</h3>
+        <p>Bupropion HCL 75Mg</p>
+        <p>LKR.2800 Per Bottle</p>
+        <label for="quantity-Bupropion">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Bupropion" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Bupropion" data-price="2800">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/mirtazapine.jpg" alt="Mirtazapine">
+        <h3>Mirtazapine</h3>
+        <p>Mirtazapine tablets 7.5Mg</p>
+        <p>LKR1800 Per Bottle</p>
+        <label for="quantity-Mirtazapine">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Mirtazapine" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Mirtazapine" data-price="1800">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/venlafaxine.jpg" alt="Venlafaxine">
+        <h3>Venlafaxine</h3>
+        <p>Venlafaxine Tablets 37.5mg 100 tablets</p>
+        <p>LKR.3700 Per Bottle</p>
+        <label for="quantity-Venlafaxine">Quantity (Bottle):</label>
+        <input type="number" id="quantity-Venlafaxine" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Venlafaxine" data-price="3700">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="./Pics/citalopram.jpg" alt="Citalopram">
+        <h3>Citalopram</h3>
+        <p>Citalopram 40mg</p>
+        <p>LKR.1900 Per Box</p>
+        <label for="quantity-Citalopram">Quantity (Box):</label>
+        <input type="number" id="quantity-Citalopram" name="quantity" min="1" value="1">
+        <button class="add-to-cart" data-product="Citalopram" data-price="1900">Add to Cart</button>
+      </div>  
+
+    <h2><center> Antihistamines </center></h2>
+    <div class="product-container">
+      <div class="product">
+      <img src="./Pics/diphenhydramine.jpg" alt="Diphenhydramine">
+      <h3>Diphenhydramine</h3>
+      <p>iphenhydramine HCL 25mg</p>
+      <h3>LKR.3475</h3>
+      <label for="quantity-Diphenhydramine">Quantity (Bottle):</label>
+      <input type="number" id="quantity-Diphenhydramine" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Diphenhydramine" data-price="3475">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="./Pics/cetrizine.jpg" alt="Cetirzine">
+      <h3>Cetirzine</h3>
+      <p>Cetirzine SPMC 10mg</p>
+      <h3>LKR.605</h3>
+      <label for="quantity-Cetirzine">Quantity (Pack):</label>
+      <input type="number" id="quantity-Cetirzine" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Cetirzine" data-price="605">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="./Pics/loratadine.jpg" alt="Lortadine">
+      <h3>Lortadine</h3>
+      <p>Lortadine 10mg tablets</p>
+      <h3>LKR.1275</h3>
+      <label for="quantity-Lortadine">Quantity (Box):</label>
+      <input type="number" id="quantity-Lortadine" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Lortadine" data-price="1275">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="./Pics/fexofenadine.jpg" alt="Fexofenadine">
+      <h3>Fexofenadine</h3>
+      <p>Fexofenadine 180mg tablets</p>
+      <h3>LKR.4875</h3>
+      <label for="quantity-Fexofenadine">Quantity (Box):</label>
+      <input type="number" id="quantity-Fexofenadine" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Fexofenadine" data-price="4875">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="./Pics/chlorpheniramine.jpg" alt="Chloropheniramine">
+      <h3>Chloropheniramine</h3>
+      <p>Chloropheniramine 4mg</p>
+      <h3>LKR.2675</h3>
+      <label for="quantity-Chloropheniramine">Quantity (Box):</label>
+      <input type="number" id="quantity-Chloropheniramine" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Chloropheniramine" data-price="2675">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="./Pics/hydroxyzine.jpeg" alt="Hydroxyzine">
+      <h3>Hydroxyzine</h3>
+      <p>Hydroxyzine 10mg tablets</p>
+      <h3>LKR.1805</h3>
+      <label for="quantity-Hydroxyzine">Quantity (Box):</label>
+      <input type="number" id="quantity-Hydroxyzine" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Hydroxyzine" data-price="1805">Add to Cart</button>
+    </div>
+    <h2><center> Antihypertensives </center></h2>
+    <div class="product-container">
+      <div class="product">
+      <img src="./Pics/amlodpine.jpg" alt="Amlodpine">
+      <h3>Amlodpine</h3>
+      <p>Amlodpine 10mg 28 tablets</p>
+      <h3>LKR.2475</h3>
+      <label for="quantity-Amlodpine">Quantity (Box):</label>
+      <input type="number" id="quantity-Amlodpine" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Amlodpine" data-price="2475">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="./Pics/losartan.jpeg" alt="Losartan">
+      <h3>Losartan</h3>
+      <p>Losartan Pottasium Tablets</p>
+      <h3>LKR.3605</h3>
+      <label for="quantity-Losartan">Quantity (Pack):</label>
+      <input type="number" id="quantity-Losartan" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Losartan" data-price="3605">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="./Pics/Lisinopril.png" alt="Lisinoprill">
+      <h3>Lisinoprill </h3>
+      <p>Lisinoprill 10mg 28 Tablets</p>
+      <h3>LKR.1275</h3>
+      <label for="quantity-Lisinoprill">Quantity (Box):</label>
+      <input type="number" id="quantity-Lisinoprill" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Lisinoprill " data-price="1275">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="./Pics/HCTZ.jpg" alt="HCTZ">
+      <h3>HCTZ</h3>
+      <p>Hydrochlorothiazide 12.5mg 100 tablets</p>
+      <h3>LKR.4875</h3>
+      <label for="quantity-HCTZ">Quantity (Bottle):</label>
+      <input type="number" id="quantity-HCTZ" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="HCTZ" data-price="4875">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="./Pics/metoprolol.jpg" alt="Metoprolol">
+      <h3>Metoprolol</h3>
+      <p>Metoprolol Succinate 50mg</p>
+      <h3>LKR.1675</h3>
+      <label for="quantity-Metoprolol">Quantity (Box):</label>
+      <input type="number" id="quantity-Metoprolol" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Metoprolol" data-price="1675">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="./Pics/clonidine.jpg" alt="Milk">
+      <h3>Clonifine</h3>
+      <p>Clonifine HCL 0.1mg 100 tablets</p>
+      <h3>LKR.2805</h3>
+      <label for="quantity-Clonifine">Quantity (Bottle):</label>
+      <input type="number" id="quantity-Clonifine" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Clonifines" data-price="2805">Add to Cart</button>
+    </div>
+
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+          <h2>Ethereal Eatz</h2>
+      </div>
+      <div class="footer-branches">
+          <h3>Branches</h3>
+          <ul>
+              <li>Colombo</li>
+              <li>Kandy</li>
+              <li>Galle</li>
+              <h3>Contact Us</h3>
+              <li>011-294 533 9348</li>
+          </ul>
+      </div>
+      <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+              <li><a href="homepage.html">Home</a></li>
+              <li><a href="aboutuspage.html">About Us</a></li>
+              <li><a href="./freshproduct.html">Products</a></li>
+              <li><a href="loyalty.html">Loyalty</a></li>
+              <li><a href="order.html">Order</a></li>
+          </ul>
+      </div>
+    </div>
+    <div id="floating-cart">
+      <table>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody id="cart-body">
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Total</td>
+            <td id="total-price">Rs.0.00</td>
+          </tr>
+        </tfoot>
+      </table>
+      <button id="buynow">BUY NOW</button>
+      <button id="addtofav">ADD TO FAVOURITES</button>
+    </div>
+      <p>&copy; 2024 Crest Med. All rights reserved.</p>
+    </footer>
+    <script src="./cart.js"></script>
+    <script src="./order.js"></script>
+  </body>
+  </html>

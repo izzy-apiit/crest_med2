@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loyalty - Crest Med</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <h1>Crest Med</h1>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./aboutuspage (1).html">About Us</a></li>
+        <li><a href="./freshproduct.html">Products</a></li>
+        <li><a href="./loyalty.html">Loyalty</a></li>
+        <li><a href="./order.html">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="loyalty">
+    <h2><center>Join Our Loyalty Program</center></h2>
+    <form action="#" method="post">
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="Address">Address:</label>
+      <input type="Address" id="Address" name="Address" required><br><br>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{2}-[0-9]{3}-[0-9]{4}" placeholder="Format: +94 12-345-6789" required><br><br>
+
+      <label for="loyaltyform">How Did You Hear About Us:</label>
+      <select id="loyaltyform" name="loyaltyhowtohear" required>
+        <option value="1">From Tv Commercials</option>
+        <option value="2">From Our Website</option>
+        <option value="3">From an Ad</option>
+        <option value="4">From a person/group</option>
+        <option value="5">Other</option>
+      </select><br><br>
+
+      <label for="loyaltyScheme">Choose a Loyalty Scheme:</label>
+      <select id="loyaltyScheme" name="loyaltyScheme" required>
+        <option value="bronze">Green Shopper - 5% discount on all purchases</option>
+        <option value="silver">Gold Shopper - 10% discount on all purchases</option>
+        <option value="gold">Platinum Shopper - 15% discount on all purchases</option>
+      </select><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <div class="benefits-topic">
+    <h3>Loyalty Scheme Benefits</h3>
+  </div> 
+
+  <section class="benefits">
+    <div class="card">
+      <h2>Green Shopper</h2><br>
+      <p>5% discount on all purchases - Start your membership from LKR.1999 Monthly</p>
+  </div>
+  <div class="card">
+    <h2>Gold Shopper</h2><br>
+    <p>10% discount on all purchases - Start your membership from LKR.3999 Monthly</p>
+</div>
+<div class="card">
+  <h2>Platinum Shopper</h2><br>
+  <p>15% discount on all purchases - Start your membership from LKR.6999 Monthly</p>
+</div>
+  </section><br>
+
+  
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+          <h2>Crest Med</h2>
+      </div>
+      <div class="footer-branches">
+          <h3>Branches</h3>
+          <ul>
+              <li>Colombo</li>
+              <li>Kandy</li>
+              <li>Galle</li>
+              <h3>Contact Us</h3>
+              <li>011-294 533 9348</li>
+          </ul>
+      </div>
+      <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+              <li><a href="homepage.html">Home</a></li>
+              <li><a href="aboutuspage.html">About Us</a></li>
+              <li><a href="./freshproduct.html">Products</a></li>
+              <li><a href="loyalty.html">Loyalty</a></li>
+              <li><a href="order.html">Order</a></li>
+          </ul>
+      </div>
+  </div>
+    <p>&copy; 2024 Crest Med. All rights reserved.</p>
+  </footer>
+</body>
+</html>

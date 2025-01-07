@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order - Crest Med</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <h1>Crest Med</h1>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./aboutuspage.html">About Us</a></li>
+        <li><a href="./freshproduct.html">Products</a></li>
+        <li><a href="./loyalty.html">Loyalty</a></li>
+        <li><a href="./order.html">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="order">
+    <h2><center>Order Summary</center></h2>
+    <div class="cart">
+        <center><h3>Shopping Cart</h3></center>
+        <center>
+          <ul id="cart-items"></ul>
+          <h1><p id="total-price">Total: Rs.0.00</p></h1>
+        </center>
+    </div>
+    
+    <div class="checkout">
+      <h3><center>Checkout</center></h3>
+      <button id="checkout-btn">CHECKOUT</button>
+      <button id="buy-favourites-btn">APPLY FAVOURITES</button>
+      <button id="addtofav-order">ADD TO FAVOURITES</button>
+      <button id="clear-cart-btn">CLEAR CART</button>
+    </div>
+  </section>
+
+  <section id="order-form-section" style="display:none;">
+    <h2><center>Payment Information</center></h2>
+    <div id="card-preview" class="virtual-card">
+      <div class="card-details">
+        <p id="virtual-card-number">XXXX XXXX XXXX XXXX</p>
+        <title>CVV:</title><p id="virtual-cvv">XXX</p>
+      </div>
+    </div>
+    <form id="order-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="card-number">Card Number:</label>
+      <input type="text" id="card-number" name="card-number" required maxlength="19"><br><br>
+
+      <label for="cvv">CVV:</label>
+      <input type="number" id="cvv" name="cvv" required maxlength="3"><br><br>
+
+      <input type="submit" value="SUBMIT" class="submit-button">
+    </form>
+  </section>
+
+  <section id="thank-you-section" style="display:none;">
+    <center><h2>Thank you for your order!</h2></center>
+    <center><p>Your order has been successfully placed. Delivery date is <span id="delivery-date"></span>.</p></center>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+          <h2>Crest Med</h2>
+      </div>
+      <div class="footer-branches">
+          <h3>Branches</h3>
+          <ul>
+              <li>Colombo</li>
+              <li>Kandy</li>
+              <li>Galle</li>
+              <h3>Contact Us</h3>
+              <li>011-294 533 9348</li>
+          </ul>
+      </div>
+      <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+              <li><a href="homepage.html">Home</a></li>
+              <li><a href="aboutuspage.html">About Us</a></li>
+              <li><a href="./freshproduct.html">Products</a></li>
+              <li><a href="loyalty.html">Loyalty</a></li>
+              <li><a href="order.html">Order</a></li>
+          </ul>
+      </div>
+    </div>
+    <p>&copy; 2024 Crest Med. All rights reserved.</p>
+  </footer>
+
+  <script src="./order.js"></script>
+  <script src="./cart.js"></script>
+
+</body>
+</html>

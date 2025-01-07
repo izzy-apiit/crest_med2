@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dairy Products - Etherial Eatz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ethereal Eatz</h1>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./aboutuspage (1).html">About Us</a></li>
+        <li><a href="./freshproduct.html">Products</a></li>
+        <li><a href="./diary.html">Diary</a></li>
+        <li><a href="./cosmetics.html">Cosmetics</a></li>
+        <li><a href="./loyalty.html">Loyalty</a></li>
+        <li><a href="./order.html">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="products">
+    <h2><center>Dairy Products</center></h2>
+    <div class="product">
+      <img src="./New folder/Diary/ambewalamilk.jpg" alt="Milk">
+      <h3>Fresh Milk</h3>
+      <p>KOTMALE Uht Chocolate Flavored Milk, 1l</p>
+      <h3>LKR.580</h3>
+      <label for="quantity-diaries">Quantity (Pack):</label>
+      <input type="number" id="quantity-diaries" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Fresh Milk" data-price="580">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="./New folder/Diary/happycowcreamcheese.jpg" alt="Milk">
+      <h3>Cheese</h3>
+      <p>HAPPY COW Cream Cheese Cup Herb, 150g</p>
+      <h3>LKR.1540</h3>
+      <label for="quantity-diaries">Quantity (Cup):</label>
+      <input type="number" id="quantity-diaries" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Cheese Cup" data-price="1540">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="./New folder/Diary/pizzacheese.jpg" alt="Milk">
+      <h3>Cheese</h3>
+      <p>GRANA PADANO Pizza Cheese 200g</p>
+      <h3>LKR.1100</h3>
+      <label for="quantity-diaries">Quantity (Pack):</label>
+      <input type="number" id="quantity-diaries" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Pizza Cheese" data-price="1100">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="./New folder/Diary/FondreFatSpread.jpg" alt="Milk">
+      <h3>Fat Spread</h3>
+      <p>FONDRE Fat Spread, 250g</p>
+      <h3>LKR.800</h3>
+      <label for="quantity-diaries">Quantity (Cup):</label>
+      <input type="number" id="quantity-diaries" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Fat Spread" data-price="800">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="./New folder/Diary/b&jIC.jpg" alt="Milk">
+      <h3>Ice Cream</h3>
+      <p>Ben & Jerry's Cookie Dough Ice Cream 465ml</p>
+      <h3>LKR.6000</h3>
+      <label for="quantity-diaries">Quantity (Tub):</label>
+      <input type="number" id="quantity-diaries" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Ice Cream" data-price="6000">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="./New folder/Diary/yoghurtanc.jpg" alt="Milk">
+      <h3>Yoghurt</h3>
+      <p>Anchor Stirred St/Berry Yoghurt 980g</p>
+      <h3>LKR.875</h3>
+      <label for="quantity-diaries">Quantity (Tub):</label>
+      <input type="number" id="quantity-diaries" name="quantity" min="1" value="1">
+      <button class="add-to-cart" data-product="Yoghurt" data-price="875">Add to Cart</button>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+          <h2>Ethereal Eatz</h2>
+      </div>
+      <div class="footer-branches">
+          <h3>Branches</h3>
+          <ul>
+              <li>Colombo</li>
+              <li>Kandy</li>
+              <li>Galle</li>
+              <h3>Contact Us</h3>
+              <li>011-294 533 9348</li>
+          </ul>
+      </div>
+      <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+              <li><a href="homepage.html">Home</a></li>
+              <li><a href="aboutuspage.html">About Us</a></li>
+              <li><a href="./freshproduct.html">Products</a></li>
+              <li><a href="diary.html">Dairy</a></li>
+              <li><a href="cosmetics.html">Cosmetics</a></li>
+              <li><a href="loyalty.html">Loyalty</a></li>
+              <li><a href="order.html">Order</a></li>
+          </ul>
+      </div>
+  </div>
+  <div id="floating-cart">
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody id="cart-body">
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Total</td>
+          <td id="total-price">Rs.0.00</td>
+        </tr>
+      </tfoot>
+    </table>
+    <button id="buynow">BUY NOW</button>
+    <button id="addtofav">ADD TO FAVOURITES</button>
+  </div>
+    <p>&copy; 2024 Etherial Eatz. All rights reserved.</p>
+  </footer>
+  <script src="./cart.js"></script>
+  <script src="./order.js"></script>
+</body>
+</html>
